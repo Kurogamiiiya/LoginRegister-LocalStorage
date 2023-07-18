@@ -146,7 +146,7 @@ function onHome(){
     password.value="";
 }
 
-if(localStorage.getItem("loginNow") != "null"){
+if(localStorage.getItem("loginNow") != null){
     welcomeText.style.display="block";
     welcomeText.textContent=`Welcome ${localStorage.getItem("loginNow")}  you're ${localStorage.getItem("roleNow")} ✔`;
 
