@@ -1,0 +1,14 @@
+.container{
+    display: grid;
+    background-color: rgb(198, 208, 255);
+    text-align: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+button{
+    height: 3rem;
+    width: 4rem;
+}

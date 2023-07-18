@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body style="background-color: rgb(80, 78, 78);">
+    
+    <div style="background-color: rgb(86, 86, 253); color: aliceblue;" class="container"><h4>Local Storage <br> Login Form</h4></div>
+
+    <div id="id1" class="container">
+
+        <h1 style="text-align: center;" id="welcomeText">Welcome</h1> 
+        <h1 style="text-align: center;" id="roleText">Role</h1> 
+
+        <div>
+            <label id="usernameLabel" for="username">Username  : </label>
+            <input id="username" placeholder="username" type="text"><br>
+    
+            <label id="passwordLabel" for="password">Password : </label>
+            <input id="password" placeholder="password" type="password"><br>
+
+            <label id="roleLabel" for="role">Role : </label>
+            <select name="role" id="roles">
+                <option value="member">member</option>
+                <option value="supporter">supporter</option>
+                <option value="admin">admin</option>
+            </select>
+        </div>
+
+        
+
+        <div style="text-align: center; justify-items: center;">
+            <button onclick="onLogin()" id="loginBtn">Login</button><br>
+           <button onclick="onSignup()" id="signupBtn">Signup</button><br>
+           <button onclick="onHome()" id="homeBtn">Home</button><br>
+        </div>
+    
+            
+    </div>
+
+    <div style="text-align: center;">
+        <a style=" color: aliceblue; text-decoration: none;" href="https://github.com/Kurogamiiiya">@Kurogamiiiya</a>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
